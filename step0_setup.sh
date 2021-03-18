@@ -5,8 +5,8 @@
 ### basis setup ### 
 
 # to get your administation in order
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
 # now we can get the whole lot
 sudo apt-get -y install build-essential cmake gcc g++ git unzip pkg-config
 sudo apt-get -y install libjpeg-dev libpng-dev libtiff-dev
