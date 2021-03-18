@@ -6,7 +6,7 @@
 
 cd ~
 # the dependencies
-sudo apt-get install wget curl
+sudo apt-get -y install wget curl
 # download TensorFlow 2.4.1
 wget -O tensorflow.zip https://github.com/tensorflow/tensorflow/archive/v2.4.1.zip
 # unpack and give the folder a convenient name
