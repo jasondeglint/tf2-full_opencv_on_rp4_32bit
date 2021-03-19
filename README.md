@@ -1,10 +1,30 @@
 # tf2.0-cv2-kivy-on-ubuntu20.04-arm64-RP4
 Setting up tensorflow 2.0, Kivy and OpenCV on Ubuntu 20.04 server and Raspberry Pi 4 (arm64)
 
-## step 1: Download Ubuntu Server 20.04.2 LTS
+
+# step 1: Download Ubuntu Server 20.04.2 LTS
 link: https://ubuntu.com/download/raspberry-pi
 
 Note: Do not download the 20.10 desktop version as it does not suppport tensorflow at the moment.
+
+In bash run:
+
+`$ source step0_setup.sh`
+
+
+# Step 2: Install TensorFlow 2.2
+
+In bash run:
+
+`$ source step1_install_tensorflow_quick.sh`
+
+Then to check if it has installed:
+```
+$ python
+>>> import tensorflow at tf
+>>> tf.__version__
+
+```
 
 
 
