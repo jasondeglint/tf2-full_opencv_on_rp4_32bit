@@ -9,6 +9,7 @@ sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 2
 sudo apt-get install python3-pip -y
 sudo update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
+sudo apt-get install -y libhdf5-dev
 #pip install --upgrade pip
 
 # to see a list of all stable go to https://github.com/tensorflow/tensorflow and search for "Community Supported Builds"
