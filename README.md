@@ -37,7 +37,7 @@ We need a "Linux aarch64 CPU" build since we are running Ubuntu on a Raspberry P
 
 Downloading the wheel file and installing all the dependecnies is taken care of in the bash script. So in the terminal type:
 
-`source install_tensorflow.sh`
+`$ source install_tensorflow.sh`
 
 Then to check if it has installed:
 ```
