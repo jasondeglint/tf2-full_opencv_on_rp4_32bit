@@ -14,7 +14,7 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
 
-TODO: setup Windows UI.
+TODO: setup window UI.
 
 
 ## Step 2: Install Python 3.7
