@@ -49,6 +49,19 @@ $ python
 
 ## Step 4: Install OpenCV
 
+Simply, type the following int the terminal:
+
+`$ pip3 install opencv-python`
+
+Then check if it worked:
+
+```
+$ python3
+>>> import cv2
+>>> cv2.__version__
+```
+You should see `'4.5.1'`.
+
 
 ## Step 5: Install Kivy
 
