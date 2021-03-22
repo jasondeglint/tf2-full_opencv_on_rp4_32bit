@@ -12,8 +12,4 @@ sudo update-alternatives --install /usr/bin/pip pip /usr/bin/pip3 1
 sudo apt-get install -y libhdf5-dev
 #pip install --upgrade pip
 
-# to see a list of all stable go to https://github.com/tensorflow/tensorflow and search for "Community Supported Builds"
-# we need a "Linux aarch64 CPU" build
-# download TensorFlow 2.4.0 CPU wheel from linaro. This wheel will only work with Python 3.7
-#wget https://snapshots.linaro.org/ldcg/python/tensorflow/12/tensorflow_cpu/tensorflow_cpu-2.4.0-cp37-cp37m-linux_aarch64.whl
-#pip install tensorflow_cpu-2.4.0-cp37-cp37m-linux_aarch64.whl
+
