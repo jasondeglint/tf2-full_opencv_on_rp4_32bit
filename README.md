@@ -89,6 +89,12 @@ https://kivy.org/doc/stable/installation/installation-linux.html#linux-ppa
 
 https://kivy.org/doc/stable/gettingstarted/installation.html#install-pip
 
+## Other helpful bash calls
+
+```
+$ dpkg -L kivy-examples
+$ sudo update-alternatives --config python3
+```
 
 
 ## Other Notes
