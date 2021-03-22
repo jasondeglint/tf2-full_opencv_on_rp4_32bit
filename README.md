@@ -35,7 +35,7 @@ As you can see most of these pre-compiled files only work with Python 3.7, which
 
 We need a "Linux aarch64 CPU" build since we are running Ubuntu on a Raspberry Pi 4. To verify this on your RP4 type `uname -a` into the terminal. You should see `aarch64` as part of the output text. 
 
-Downloaded the wheel file and installing all the dependecnies is taken care of in the bash script. So in the terminal type:
+Downloading the wheel file and installing all the dependecnies is taken care of in the bash script. So in the terminal type:
 
 `source install_tensorflow.sh`
 
