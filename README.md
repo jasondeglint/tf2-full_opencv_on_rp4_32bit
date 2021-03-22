@@ -14,7 +14,16 @@ $ sudo apt-get update
 $ sudo apt-get upgrade
 ```
 
-TODO: setup window UI.
+We now need to to setup a Desktop / windows manager. To do so, run the following commands:
+
+```
+$ sudo apt install xubuntu-desktop
+$ sudo reboot
+```
+
+Detailed instructions can be found here: 
+
+https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#5-install-a-desktop
 
 
 ## Step 2: Install Python 3.7
