@@ -80,7 +80,7 @@ $ sudo apt-get install -y kivy-examples
 ```
 
 Finally:
-`$ python -m pip install kivy[full] kivy_examples`
+`$ python -m pip install kivy[base] kivy_examples`
 
 
 References:
