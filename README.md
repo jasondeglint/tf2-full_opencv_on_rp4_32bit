@@ -17,14 +17,23 @@ $ sudo apt-get upgrade
 # Step 2: Install Python 3.7
 Run the following command in terminal:
 
-`$ source step1_install_python3-7.sh`
+`$ source install_python3-7.sh`
 
 
-# Step 2: Install TensorFlow 2.2
+# Step 3: Install TensorFlow 2.2
 
+We need to download a wheel file that has pre-compiled tensorflow for the Raspberry Pi 4. 
 
+A list wheel files for this can be found here:
+https://github.com/lhelontra/tensorflow-on-arm/releases
 
 We need a "Linux aarch64 CPU" build since we are running Ubuntu on a Raspberry Pi 4.
+
+To verify this on your RP4 type `uname -a` into the terminal. You should see `aarch64` as part of the output text.
+
+All of this is taken care of in the bash script. So in the terminal type:
+
+`source install_tensorflow.sh`
 
 Download TensorFlow 2.4.0 CPU wheel from linaro. This wheel will only work with Python 3.7, which we just installed in Step 2.
 
