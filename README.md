@@ -67,24 +67,27 @@ https://www.youtube.com/watch?v=cGmGOi2kkJ4&ab_channel=ProgrammingKnowledge&loop
 
 ## Step 5: Install Kivy
 
-https://kivy.org/doc/stable/installation/installation-linux.html#linux-ppa
-
+First this:
 ```
 $ sudo add-apt-repository ppa:kivy-team/kivy
 $ sudo apt-get update
-$ sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
 ```
 
 Then this:
 ```
-$ sudo apt-get install python3-kivy
-$ sudo apt-get install kivy-examples
+$ sudo apt-get install -y python3-kivy
+$ sudo apt-get install -y kivy-examples
 ```
 
-Or this:
-`$ python -m pip install kivy[base] kivy_examples`
+Finally:
+`$ python -m pip install kivy[full] kivy_examples`
 
-Not sure which one worked.
+
+References:
+
+https://kivy.org/doc/stable/installation/installation-linux.html#linux-ppa
+
+https://kivy.org/doc/stable/gettingstarted/installation.html#install-pip
 
 
 
