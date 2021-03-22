@@ -62,21 +62,27 @@ $ python3
 ```
 You should see `'4.5.1'`.
 
+https://www.youtube.com/watch?v=cGmGOi2kkJ4&ab_channel=ProgrammingKnowledge&loop=0
+
 
 ## Step 5: Install Kivy
 
 https://kivy.org/doc/stable/installation/installation-linux.html#linux-ppa
 
+```
 $ sudo add-apt-repository ppa:kivy-team/kivy
 $ sudo apt-get update
 $ sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
+```
 
 Then this:
+```
 $ sudo apt-get install python3-kivy
 $ sudo apt-get install kivy-examples
+```
 
 Or this:
-$ python -m pip install kivy[base] kivy_examples
+`$ python -m pip install kivy[base] kivy_examples`
 
 Not sure which one worked.
 
