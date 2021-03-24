@@ -78,19 +78,18 @@ https://www.youtube.com/watch?v=cGmGOi2kkJ4&ab_channel=ProgrammingKnowledge&loop
 
 First this:
 ```
-$ sudo add-apt-repository ppa:kivy-team/kivy
-$ sudo apt-get update
+$ python -m pip install --upgrade pip setuptools virtualenv
+$ python -m virtualenv wb
+$ source wb/bin/activate
+
 ```
 
-Then this:
+You are now in your virtual environment. Now you can install Kivy 2.0.0:
 ```
-$ sudo apt-get install -y python3-kivy
-$ sudo apt-get install -y kivy-examples
+$ sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
+$ python -m pip install kivy[base] kivy_examples
+
 ```
-
-Finally:
-`$ python -m pip install kivy[base] kivy_examples`
-
 
 References:
 
