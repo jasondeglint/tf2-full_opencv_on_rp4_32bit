@@ -88,8 +88,11 @@ You are now in your virtual environment. Now you can install Kivy 2.0.0:
 ```
 $ sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev
 $ python -m pip install kivy[base] kivy_examples
-
+$ python /usr/share/kivy-examples/3Drendering/main.py 
 ```
+
+You should see a monkey. :)
+
 
 References:
 
