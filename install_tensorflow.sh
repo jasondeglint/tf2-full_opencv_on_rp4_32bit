@@ -14,8 +14,10 @@ sudo pip3 install pybind11
 sudo pip3 install h5py==2.9.0
 sudo pip3 install -U six wheel mock
 #wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.1.0/tensorflow-2.1.0-cp37-none-linux_armv7l.whl
-# wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.1.0/tensorflow-2.1.0-cp37-none-linux_aarch64.whl 
-wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_aarch64.whl 
+#wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.1.0/tensorflow-2.1.0-cp37-none-linux_aarch64.whl 
+#wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_aarch64.whl 
+wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.4.0/tensorflow-2.4.0-cp37-none-linux_armv7l.whl
+
 
 sudo pip3 uninstall tensorflow
-python3 -m pip install tensorflow-2.1.0-cp37-none-linux_aarch64.whl
+python3 -m pip install tensorflow-2.4.0-cp37-none-linux_armv7l.whl
