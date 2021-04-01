@@ -113,7 +113,11 @@ You should see `'4.5.1'`.
 
 https://www.youtube.com/watch?v=cGmGOi2kkJ4&ab_channel=ProgrammingKnowledge&loop=0
 
+## Step
 
+```
+$ pip install repackage imutils
+```
 
 
 ## Other helpful bash calls
