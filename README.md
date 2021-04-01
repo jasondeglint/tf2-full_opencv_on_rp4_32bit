@@ -97,7 +97,10 @@ You should see `'xxx'`.
 
 Simply, type the following int the terminal:
 
-`$ pip3 install opencv-python`
+```
+$ sudo apt-get install libhdf5-dev libatlas-base-dev libjasper-dev libqtgui4 libqt4-test
+$ pip3 install opencv-python
+```
 
 Then check if it worked:
 
