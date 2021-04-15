@@ -123,6 +123,8 @@ $ pip install repackage imutils
 ## Other helpful bash calls
 
 ```
+$ uname -a
+$ sudo apt install python3-pip
 $ dpkg -L kivy-examples
 $ sudo update-alternatives --config python3
 ```
