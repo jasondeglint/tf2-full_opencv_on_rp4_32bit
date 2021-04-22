@@ -1,4 +1,4 @@
-# Tensorflow & OpenCV on Raspberry Pi 32 bit
+# Tensorflow 2 & OpenCV on Raspberry Pi 32 bit
 
 Setting up tensorflow 2.4.0, Tensorflow-lite and OpenCV 4.5.1 on 32 bit Raspberry Pi 4 (arm64).
 
